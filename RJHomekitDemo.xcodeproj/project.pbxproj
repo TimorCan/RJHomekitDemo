@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D1FB3A1E13920900FACCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D1FB391E13920900FACCFE /* AppDelegate.swift */; };
+		A8D1FB3C1E13920900FACCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D1FB3B1E13920900FACCFE /* ViewController.swift */; };
+		A8D1FB3F1E13920900FACCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D1FB3D1E13920900FACCFE /* Main.storyboard */; };
+		A8D1FB411E13920900FACCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D1FB401E13920900FACCFE /* Assets.xcassets */; };
+		A8D1FB441E13920900FACCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D1FB421E13920900FACCFE /* LaunchScreen.storyboard */; };
+		A8D1FB501E13932F00FACCFE /* HMTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D1FB4F1E13932F00FACCFE /* HMTool.swift */; };
+		A8D1FB551E13A8E600FACCFE /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1FB541E13A8E600FACCFE /* HomeKit.framework */; };
+		A8D1FB591E13BD2A00FACCFE /* MyHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D1FB581E13BD2A00FACCFE /* MyHomeKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8D1FB361E13920900FACCFE /* RJHomekitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJHomekitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D1FB391E13920900FACCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D1FB3B1E13920900FACCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8D1FB3E1E13920900FACCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8D1FB401E13920900FACCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D1FB431E13920900FACCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D1FB451E13920900FACCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D1FB4F1E13932F00FACCFE /* HMTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTool.swift; sourceTree = "<group>"; };
+		A8D1FB511E13A8E300FACCFE /* RJHomekitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RJHomekitDemo.entitlements; sourceTree = "<group>"; };
+		A8D1FB541E13A8E600FACCFE /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		A8D1FB561E13BD2900FACCFE /* RJHomekitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RJHomekitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8D1FB571E13BD2A00FACCFE /* MyHomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeKit.h; sourceTree = "<group>"; };
+		A8D1FB581E13BD2A00FACCFE /* MyHomeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D1FB331E13920900FACCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D1FB551E13A8E600FACCFE /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D1FB2D1E13920900FACCFE = {
+			isa = PBXGroup;
+			children = (
+				A8D1FB381E13920900FACCFE /* RJHomekitDemo */,
+				A8D1FB371E13920900FACCFE /* Products */,
+				A8D1FB4B1E13922700FACCFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D1FB371E13920900FACCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1FB361E13920900FACCFE /* RJHomekitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D1FB381E13920900FACCFE /* RJHomekitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1FB571E13BD2A00FACCFE /* MyHomeKit.h */,
+				A8D1FB581E13BD2A00FACCFE /* MyHomeKit.m */,
+				A8D1FB511E13A8E300FACCFE /* RJHomekitDemo.entitlements */,
+				A8D1FB391E13920900FACCFE /* AppDelegate.swift */,
+				A8D1FB3B1E13920900FACCFE /* ViewController.swift */,
+				A8D1FB4F1E13932F00FACCFE /* HMTool.swift */,
+				A8D1FB3D1E13920900FACCFE /* Main.storyboard */,
+				A8D1FB401E13920900FACCFE /* Assets.xcassets */,
+				A8D1FB421E13920900FACCFE /* LaunchScreen.storyboard */,
+				A8D1FB451E13920900FACCFE /* Info.plist */,
+				A8D1FB561E13BD2900FACCFE /* RJHomekitDemo-Bridging-Header.h */,
+			);
+			path = RJHomekitDemo;
+			sourceTree = "<group>";
+		};
+		A8D1FB4B1E13922700FACCFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1FB541E13A8E600FACCFE /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D1FB351E13920900FACCFE /* RJHomekitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D1FB481E13920900FACCFE /* Build configuration list for PBXNativeTarget "RJHomekitDemo" */;
+			buildPhases = (
+				A8D1FB321E13920900FACCFE /* Sources */,
+				A8D1FB331E13920900FACCFE /* Frameworks */,
+				A8D1FB341E13920900FACCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJHomekitDemo;
+			productName = RJHomekitDemo;
+			productReference = A8D1FB361E13920900FACCFE /* RJHomekitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D1FB2E1E13920900FACCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = verfing;
+				TargetAttributes = {
+					A8D1FB351E13920900FACCFE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 96AYX43QNV;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A8D1FB311E13920900FACCFE /* Build configuration list for PBXProject "RJHomekitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D1FB2D1E13920900FACCFE;
+			productRefGroup = A8D1FB371E13920900FACCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D1FB351E13920900FACCFE /* RJHomekitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D1FB341E13920900FACCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D1FB441E13920900FACCFE /* LaunchScreen.storyboard in Resources */,
+				A8D1FB411E13920900FACCFE /* Assets.xcassets in Resources */,
+				A8D1FB3F1E13920900FACCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D1FB321E13920900FACCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D1FB501E13932F00FACCFE /* HMTool.swift in Sources */,
+				A8D1FB591E13BD2A00FACCFE /* MyHomeKit.m in Sources */,
+				A8D1FB3C1E13920900FACCFE /* ViewController.swift in Sources */,
+				A8D1FB3A1E13920900FACCFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8D1FB3D1E13920900FACCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D1FB3E1E13920900FACCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8D1FB421E13920900FACCFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D1FB431E13920900FACCFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D1FB461E13920900FACCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D1FB471E13920900FACCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D1FB491E13920900FACCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RJHomekitDemo/RJHomekitDemo.entitlements;
+				DEVELOPMENT_TEAM = 96AYX43QNV;
+				INFOPLIST_FILE = RJHomekitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhoucan.homeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RJHomekitDemo/RJHomekitDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8D1FB4A1E13920900FACCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RJHomekitDemo/RJHomekitDemo.entitlements;
+				DEVELOPMENT_TEAM = 96AYX43QNV;
+				INFOPLIST_FILE = RJHomekitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhoucan.homeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RJHomekitDemo/RJHomekitDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D1FB311E13920900FACCFE /* Build configuration list for PBXProject "RJHomekitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D1FB461E13920900FACCFE /* Debug */,
+				A8D1FB471E13920900FACCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D1FB481E13920900FACCFE /* Build configuration list for PBXNativeTarget "RJHomekitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D1FB491E13920900FACCFE /* Debug */,
+				A8D1FB4A1E13920900FACCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D1FB2E1E13920900FACCFE /* Project object */;
+}
